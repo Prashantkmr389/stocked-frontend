@@ -1,0 +1,28 @@
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* max-width: 400px; /* You can adjust the maximum width as needed */ */
+  
+    margin: 0 auto; /* Center the search box horizontally */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    padding: 0 1rem;
+}
+
+.search-container span{
+  cursor: pointer;
+
+}
+
+.search-container input[type="text"] {
+    width: calc(100% - 40px); /* Adjust width to accommodate the search icon */
+    padding: 10px;
+    border-radius: 5px 0 0 5px; /* Rounded corners on the left side */
+    outline: none;
+    border: none;
+    background: transparent;
+}
+

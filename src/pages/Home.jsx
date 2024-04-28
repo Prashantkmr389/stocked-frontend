@@ -1,9 +1,16 @@
-import React from 'react'
+import './../styles/Home.css'
 
-function Home() {
+import HomeMenu from '../components/HomeMenu'
+import SearchBar from '../components/SearchBar'
+import CategorySlider from '../components/CategorySlider'
+
+
+export default function Home(){
   return (
-    <div>Home</div>
+    <div className = "Home">
+      <HomeMenu/>
+      <SearchBar/>
+      <CategorySlider />
+    </div>
   )
 }
-
-export default Home
