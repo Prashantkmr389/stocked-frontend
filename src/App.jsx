@@ -27,6 +27,10 @@ const appRouter = createBrowserRouter([
   {
     path:'/logout',
     element:<Signup/>
+  },
+  {
+    path:'/recenttrades',
+    element:<Signup/>
   }
 
 ])

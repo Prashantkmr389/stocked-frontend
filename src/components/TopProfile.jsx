@@ -214,12 +214,8 @@ function TopProfile() {
             </div>
             <div className='flex flex-row space-x-1'>
                 {
-                    
-                   
-
-                    
                     data.filter(item => {
-                        console.log(selectedOption, item.timeframe)
+                       
                         return item.timeframe === selectedOption
                     }).slice(0, 5).map((item, index)=>(
                         

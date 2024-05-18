@@ -3,7 +3,7 @@ import StarRateIcon from '@mui/icons-material/StarRate';
 import { StarHalfRounded } from '@mui/icons-material';
 function PerformerCardItem({item}) {
   return (
-    <div className='border-2 rounded-md w-auto h-52 grid grid-cols-10 gap-1'>
+    <div className='border-2 rounded-md w-auto h-52 grid grid-cols-10 gap-1 hover:shadow-md cursor-pointer'>
       <div className='col-span-7 mt-6 flex flex-col'>
         <span className='text-xl font-semibold ml-5'>19.89%</span>
         <span className='text-xs text-end mr-2 inline'>Cummulative Return</span>
