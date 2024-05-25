@@ -1,5 +1,7 @@
 import React from 'react'
 import StraightIcon from '@mui/icons-material/Straight';
+import { FlexBox } from './reusables/AllContainers';
+import { Text } from './reusables/AllTexts';
 
 function RecentTradeItem({item}) {
     console.log(item)

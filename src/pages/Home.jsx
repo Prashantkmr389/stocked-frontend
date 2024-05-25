@@ -119,17 +119,17 @@ dummyData.push(...additionalData);
 
 export default function Home(){
   return (
-    <div className = "Home">
-      <HomeMenu/>
-      <SearchBar/>
+    <div className="Home">
+      <HomeMenu />
+      <SearchBar />
       <CategorySlider />
-      <TopProfile/>
-
-      <Link to = '/recenttrades'>
-        {dummyData.map((value, index)=>(
-          <RecentTradeItem key={index} item = {value} />
+      <TopProfile />
+     
+      <Link to="/recenttrades">
+        {dummyData.map((value, index) => (
+          <RecentTradeItem key={index} item={value} />
         ))}
       </Link>
     </div>
-  )
+  );
 }
